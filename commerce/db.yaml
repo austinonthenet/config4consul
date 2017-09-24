@@ -1,5 +1,5 @@
 postgres:
-  url: jdbc:postgresql://commercedb1.tuk2.intelius.com:6432/commerce
+  url: "jdbc:postgresql://commercedb1.tuk2.intelius.com:6432/commerce"
   username: account
   connectionpool:
     max_size: 30

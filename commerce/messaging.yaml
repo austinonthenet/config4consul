@@ -1,5 +1,5 @@
 kafka:
-  broker_address: localhost:9092
+  broker_address: "localhost:9092"
   consumer:
     auto.commit.interval.ms: 1000
     session.timeout.ms: 15000
