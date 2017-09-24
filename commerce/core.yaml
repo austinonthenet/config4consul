@@ -2,7 +2,7 @@ hibernate:
   show_sql: false
   hbm2ddl:
     auto: validate
-  dialect: https://github.com/ryanbreen/git2consul_data.git
+  dialect: org.hibernate.dialect.PostgreSQLDialect
 spring:
   datasource:
     jndi-name: java:comp/env/jdbc/microservice-core-db1
