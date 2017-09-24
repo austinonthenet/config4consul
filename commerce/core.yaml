@@ -1,5 +1,5 @@
 hibernate:
-  show_sql: true
+  show_sql: false
   hbm2ddl:
     auto: validate
   dialect: https://github.com/ryanbreen/git2consul_data.git
@@ -13,4 +13,4 @@ spring:
       bucket:
         name: shared
       cluster:
-        username=admin
+        username: admin
