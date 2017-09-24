@@ -1,0 +1,16 @@
+hibernate:
+  show_sql: true
+  hbm2ddl:
+    auto: validate
+  dialect: https://github.com/ryanbreen/git2consul_data.git
+spring:
+  datasource:
+    jndi-name: java:comp/env/jdbc/microservice-core-db1
+  data:
+    couchbase:
+      bootstrap-hosts: 172.122.0.20
+      auto-index: false
+      bucket:
+        name: shared
+      cluster:
+        username=admin

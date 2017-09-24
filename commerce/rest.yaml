@@ -1,0 +1,6 @@
+http
+  api_base_url: https://api.peopleconnect.us/commerce
+  connect.timeout.ms: 200
+  read.timeout.ms: 2500
+  pool.size: 80
+
