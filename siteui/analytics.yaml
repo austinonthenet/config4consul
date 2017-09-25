@@ -1,0 +1,6 @@
+analytics:
+  adobeDTMUrl: "//assets.adobedtm.com/b91b397018bd44f0665595fc796e66da0259dc5b/satelliteLib-e7efacf61c0915837f9b8f8b5a03656c17d9104e.js"
+  omnitureJsFile: s_code_remote_prd.js
+  siteCatalystAccount: Prod
+  siteCatalystTagContainerName: cmProd
+

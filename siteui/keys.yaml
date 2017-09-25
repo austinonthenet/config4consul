@@ -1,0 +1,6 @@
+keys:
+  restAuthToken: prod_value_here
+  jwtAuthSecret: prod_value_here
+  meCookieKey: prod_value_here
+  meCookieSecret: prod_value_here
+
